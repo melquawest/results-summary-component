@@ -28,8 +28,8 @@ My challenge was to build out this results summary component and get it looking 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/melquawest/results-summary-component.github.io)
+- Live Site URL: [Add live site URL here](https://melquawest.github.io/results-summary-component.github.io/)
 
 ## My process
 
@@ -49,7 +49,7 @@ Also, I learned how to host a website on github using github pages.
 
 ## Author
 
-- Website - [Boakye Prince Stephen](https://www.your-site.com)
+- Website - [Boakye Prince Stephen](https://melquawest.github.io/results-summary-component.github.io/)
 - Frontend Mentor - [@melquawest](https://www.frontendmentor.io/profile/melquawest)
 - Twitter - [@melqua_](https://twitter.com/melqua_)
 
