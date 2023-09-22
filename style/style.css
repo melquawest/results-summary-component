@@ -1,0 +1,184 @@
+#big-container {
+  display: flex;
+  width: 50%;
+  font-family: "Hanken Grotesk", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 80px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  box-shadow: 1px 5px 30px -20px hsl(234, 85%, 45%);
+}
+#big-container #left-section {
+  width: 50%;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+#big-container #left-section #left {
+  padding: 20px 0;
+  font-weight: 700;
+  color: hsl(221, 100%, 96%);
+  opacity: 90%;
+}
+#big-container #left-section #marks {
+  width: 32%;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  padding: 30px;
+  font-size: 12px;
+  color: hsl(221, 100%, 96%);
+  margin: auto;
+}
+#big-container #left-section #marks #big-number {
+  font-size: 50px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+}
+#big-container #left-section #marks #small-number {
+  opacity: 70%;
+}
+#big-container #left-section #greetings {
+  padding: 20px 0;
+  margin: 20 0;
+  color: hsl(221, 100%, 96%);
+}
+#big-container #left-section #greetings #heading {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.8px;
+}
+#big-container #left-section #greetings #message {
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 1.2;
+  opacity: 80%;
+  text-align: center;
+  padding: 1px 30px;
+}
+#big-container #right-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px 30px;
+  border-radius: 0 25px 25px 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+#big-container #right-section #right {
+  padding: 20px 0;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+  opacity: 90%;
+}
+#big-container #right-section .summary-box {
+  display: flex;
+  justify-content: right;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 7px;
+}
+#big-container #right-section .summary-marks {
+  color: hsla(224, 30%, 27%, 0.498);
+  margin-left: auto;
+}
+#big-container #right-section .mark {
+  color: hsl(224, 30%, 27%);
+}
+#big-container #right-section .box-1 {
+  background-color: hsla(0, 100%, 67%, 0.091);
+}
+#big-container #right-section .box-1 .text-0 {
+  color: hsl(0, 100%, 67%);
+  margin-left: 6px;
+}
+#big-container #right-section .box-2 {
+  background-color: hsla(39, 100%, 56%, 0.094);
+}
+#big-container #right-section .box-2 .text-1 {
+  color: hsl(39, 100%, 56%);
+  margin-left: 6px;
+}
+#big-container #right-section .box-3 {
+  background-color: hsla(166, 100%, 37%, 0.091);
+}
+#big-container #right-section .box-3 .text-2 {
+  color: hsl(166, 100%, 37%);
+  margin-left: 6px;
+}
+#big-container #right-section .box-4 {
+  background-color: hsla(234, 85%, 45%, 0.094);
+}
+#big-container #right-section .box-4 .text-3 {
+  color: hsl(234, 85%, 45%);
+  margin-left: 6px;
+}
+#big-container #continue {
+  padding: 13px 0;
+  font-weight: bold;
+  background: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+}
+#big-container #continue:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Hanken Grotesk", sans-serif, Arial, Helvetica, sans-serif;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 930px) {
+  #big-container {
+    flex-wrap: wrap;
+    box-shadow: 0 0 1px;
+    margin: auto;
+    padding-right: auto;
+  }
+  #big-container #left-section {
+    width: 100%;
+    border-radius: 0 0 25px 25px;
+  }
+  #big-container #left-section #marks {
+    width: 18%;
+  }
+  #big-container #left-section #marks #big-number {
+    font-size: 40px;
+  }
+  #big-container #left-section #marks #small-number {
+    font-size: 10px;
+  }
+  #big-container #left-section #greetings {
+    padding: 20px 50px;
+  }
+  #big-container #left-section #greetings #heading {
+    font-size: 22px;
+  }
+  #big-container #right-section {
+    width: 100%;
+  }
+  #big-container #right-section #continue {
+    padding: 15px 0;
+  }
+  .attribution {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
